@@ -1,0 +1,5 @@
+clientApp: https://client-app-asm3.web.app/
+adminApp: https://admin-app-asm3.web.app/
+	login Admin: admin@gmail.com - pass:123456789
+	login staff: staff@gmail.com - pass:123456789
+server github: https://github.com/ptq1401/server-asm3.git

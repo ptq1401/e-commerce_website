@@ -1,0 +1,61 @@
+.container {
+  width: 90vw;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e9ecef;
+}
+.infor {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  column-gap: 5px;
+}
+.infor div {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infor span p:nth-child(1) {
+  font-size: 22px;
+  font-weight: 600;
+}
+.infor span p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #939393;
+}
+.infor div i {
+  font-size: 24px;
+}
+.history {
+  background-color: #fff;
+  padding: 20px;
+}
+.history table {
+  width: 100%;
+  margin-top: 30px;
+  text-align: left;
+}
+.history table th,
+td {
+  padding: 10px 10px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+.view {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+}
+.view:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.message {
+  text-align: center;
+}

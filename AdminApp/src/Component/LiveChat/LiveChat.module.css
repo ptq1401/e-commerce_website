@@ -1,0 +1,65 @@
+.container {
+  margin: 20px auto;
+  width: 90vw;
+  height: 87vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: #e9ecef;
+  padding: 0 20px;
+}
+.container > div:nth-child(1) {
+  border-right: 2px solid #000;
+}
+.user {
+  align-items: center;
+  padding: 20px 10px;
+  border: none;
+  border-bottom: 2px solid #000;
+  width: 100%;
+}
+
+.user p {
+  font-style: italic;
+  margin-left: 10px;
+}
+.customer {
+  align-self: start;
+  background-color: #339af0;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.admin {
+  align-self: end;
+  background-color: #ced4da;
+  color: #102742;
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5px;
+}
+.chatBox {
+  display: grid;
+  grid-template-rows: 13fr 1fr;
+  row-gap: 20px;
+}
+.chatBox input {
+  height: 40px;
+  width: 700px;
+  padding: 10px;
+}
+.enter {
+  height: 40px;
+  margin-left: 20px;
+  width: 100px;
+}
+.chatBox > div:nth-child(2) {
+  text-align: center;
+}
+.chatBox > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}

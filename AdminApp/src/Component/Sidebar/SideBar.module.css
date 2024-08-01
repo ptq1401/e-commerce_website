@@ -1,0 +1,33 @@
+.container {
+  width: 100vw;
+}
+.sidebar {
+  background-color: #f1f3f5;
+  height: 50px;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+.container h2 {
+  text-align: center;
+  color: #7950f2;
+  /* background-color: bisque; */
+  border-bottom: 2px solid #ced4da;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.link:hover {
+  color: #7950f2;
+}
+.active {
+  text-decoration: none;
+  color: #fd8d14;
+}

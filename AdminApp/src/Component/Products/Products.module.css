@@ -1,0 +1,62 @@
+.container {
+  width: 90vw;
+  margin: 20px auto;
+  padding: 20px;
+}
+.search input {
+  width: 300px;
+  height: 30px;
+  padding: 5px 10px;
+}
+.search button {
+  width: 80px;
+  height: 30px;
+  margin-left: 10px;
+
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+.search button:hover {
+  cursor: pointer;
+  background-color: #339af0;
+  color: #fff;
+  border: none;
+}
+.message {
+  text-align: center;
+}
+.container table {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+}
+.container table th,
+td {
+  border: 1px solid #adb5bd;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+img {
+  width: 50px;
+}
+.container table tbody tr:nth-child(odd) {
+  background-color: #e9ecef;
+}
+.container .delete {
+  width: 80px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+}
+
+.container .update {
+  width: 80px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #51cf66;
+  color: #fff;
+  border: none;
+}

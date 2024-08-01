@@ -1,0 +1,62 @@
+.container {
+  width: 90vw;
+  margin: 10px auto;
+}
+.container h3 {
+  text-align: start;
+  color: #e03131;
+  margin: 15px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  border: 1px solid #e03131;
+}
+.container form {
+  margin: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 150px;
+  border: 1px solid #eaeaea;
+  box-shadow: 5px 5px 5px #dadada;
+  padding: 30px 30px;
+}
+.container form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  color: #000;
+}
+.container form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  height: 32px;
+  padding: 10px;
+}
+.container .image {
+  border-bottom: none;
+}
+.container form select {
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  height: 32px;
+  padding: 5px;
+}
+.button {
+  background-color: #339af0;
+  color: #fff;
+  height: 40px;
+  width: 250px;
+  border: none;
+  font-size: 18px;
+}
+.button:hover {
+  background-color: #1864ab;
+  transform: scale(1.1);
+}
+.container form textarea {
+  height: 200px;
+}
+.container .short {
+  height: 120px;
+}
